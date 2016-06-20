@@ -5,17 +5,17 @@ header-img: img/home-bg.jpg
 email: zeal.xy.ni@gmail.com
 description: "关于前端与设计 | 粥一 | 这里是 @粥一 的个人博客，与你一起发现更大的世界。"
 keyword: "粥一, 倪晓禹, 交互, 前端, 博客, 个人网站, 互联网, 设计, 产品"
-url: "http://huangxuan.me"              # your host, for absolute URL
+url: "http://www.cloock.wang"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     Cloooock
+weibo_username:     5138280133
 zhihu_username:     ni-xiao-yu-35
 github_username:    mondayc
-facebook_username:  倪晓禹
+# facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -50,19 +50,19 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+# duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: www.cloock.wang
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: www.cloock.wang
 
 
 
