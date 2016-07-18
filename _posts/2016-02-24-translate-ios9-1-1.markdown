@@ -1,0 +1,101 @@
+---
+layout:     post
+title:      "[译]iOS 9 人机界面指南（1-1）-为iOS设计"
+subtitle:   ""
+date:       2016-02-24 10:26:00
+author:     "粥一"
+header-img: "img/tag-bg.jpg"
+tags:
+    - iOS9
+    - 译文
+    - 界面规范
+    
+---
+##为iOS设计
+
+iOS体现了以下三大设计原则：
+
+* **顺从**：  UI帮助用户更好地理解内容并与之进行交互，但并不会喧宾夺主。
+
+* **清晰**： 各种尺寸的文字都应该清晰易读，icon都精确易懂， 修饰适当就行，突出重点功能，并以此驱动设计。
+
+* **深度**： 视觉的层次感和生动逼真的交互动效赋予了界面活力，便于用户更好地理解功能，同时也提升了用户在使用过程中的愉悦感。
+
+![](http://upload-images.jianshu.io/upload_images/674139-3094018b10685428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+不论你是在重新设计一款现有移动应用，还是开发一款全新的，请从以下几方面考虑设计：
+
+首先，透过UI看清这款应用的核心功能，并明确它们之间的相互关联。
+
+接下来，使用iOS主题特征来定义UI和用户体验设计。完善细节，适当修饰但不要无缘无故添加。
+
+最后，确保让你设计的UI适配不同的设备和操作模式，这样用户就能够在尽可能多的场景下享受你的应用了。
+
+在整个过程中，要随时准备着推翻先例，质疑各种假设，并让功能和内容作为重点来推动每项设计决策。
+
+
+####设计跟随内容
+
+尽管清新漂亮的UI和流畅的动效是iOS用户体验的亮点，但用户内容才是iOS的核心。
+
+以下方法可以确保你的设计功能体验提升，并使设计聚焦于内容：
+
+**充分利用整个屏幕**：iOS系统天气应用是这种方式的一个极佳例子。用漂亮的全屏描述当地目前的实时天气状况，直观地传递了最重要的信息，同时也留下空间来显示每个时段的天气数据。
+![](http://upload-images.jianshu.io/upload_images/674139-7bb6332fc257035b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**重新考虑（减少使用）拟物化设计**：遮罩、渐变和阴影有时会使UI元素显得更加厚重，可能会影响用户对内容的关注。相反，应该更多关注内容本身，让UI来作为衬托内容的配角。
+
+![](http://upload-images.jianshu.io/upload_images/674139-58a9d2c4f7588d77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**用半透明的UI元素来隐射其背后的内容**：半透明元素（比如控制中心）提供了上下文的使用场景，帮助用户看见更多可用的内容，并起短暂的提示作用。在iOS系统中，半透明元素只会使其正下方的内容模糊（看上去像是蒙上了一层糯米纸），并不会让屏幕其他部分也变模糊。
+
+![](http://upload-images.jianshu.io/upload_images/674139-a6ca53adaf22de8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+####确保清晰
+
+保证清晰度，是另一种来确保你的移动应用内容为核心的方式。下面是一些让最为重要的内容和功能清晰可见，并且易于交互的方式： 
+
+**使用大量留白**：留白使重要的内容和功能更加醒目，并且更容易被理解。留白也可以给人一种平静安详的感觉，使这个应用看起来重点更突出、更高效。
+
+![](http://upload-images.jianshu.io/upload_images/674139-713868f57113ef36.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**让颜色来简化UI**：一种主题色（如系统便签的黄色），高亮显示了重要区域的信息，同时也巧妙地表达了可交互性。主题色同时也让一项应用拥有一致的视觉主题。系统应用使用一同色系纯净的系统色，这样在深色或浅色背景下都看起来不错。
+![](http://upload-images.jianshu.io/upload_images/674139-9aec7b44a9eb76ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**通过使用系统字体来确保易读性**：San Francisco （iOS系统字体）使用动态类型来调整字符间距及行高，以确保文字在任何尺寸下都清晰易读 。不论你是使用San Francisco 还是其他自定义字体，都要确保适应动态类型，这样你的应用就可以在选择不同尺寸字体时自动作出响应。
+
+![](http://upload-images.jianshu.io/upload_images/674139-61681491ba268b9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+**使用无边框按钮**：默认情况下，所有的按钮都是无边框的。在内容区，无边框按钮使用文案、颜色和操作指引来表明其可交互性。当按钮被激活时，文案区域按钮会出现一圈细的外边框，或是浅色的背景来作为操作响应。
+
+![](http://upload-images.jianshu.io/upload_images/674139-b608ab15aa792efb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+####使用深度层次来进行交流
+
+iOS通常会在不同深度层次展现内容，以此来传递层级和位置信息，这样可以帮助用户更好地理解屏幕上各个对象之间的关系。
+
+在支持 3D Touch的设备上,，轻压（peek）、重压（ pop）以及快捷操作（quick actions）能让用户在不离开当前内容的情况下预览其他重要功能。
+
+![](http://upload-images.jianshu.io/upload_images/674139-f602281eaea7902e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+通过使用半透明背景和浮动出现在主屏幕上方的方式，文件夹将其内容和屏幕其余部分区分开来。
+
+![](http://upload-images.jianshu.io/upload_images/674139-b97f5a9245db41f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+提醒事项（Reminders） 如下图，以不同层级来展示内容列表。当用户操作一项清单，其余的清单就会在屏幕底部堆叠聚集起来。
+
+
+![](http://upload-images.jianshu.io/upload_images/674139-fc5f575ca8d29048.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+日历（Calendar）使用了较强的过渡，以便用户在翻阅年、月、日时有一种层级纵深感。在滚动浏览年份时，用户可以随时看见今天的日期同时也可以执行其他日历任务。
+
+![](http://upload-images.jianshu.io/upload_images/674139-1176633a9cad95d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+当用户选择了某一月份，该年的视图被放大直到显示这一月的视图。目前的日期仍然保持高亮显示，年份标志出现在左上角的返回按钮处，这样用户就能很直观地知道当前的具体位置——从哪进入、如何返回。
+
+![](http://upload-images.jianshu.io/upload_images/674139-24c76ca4f7cc19d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+选择某一天时，也会出现相似的过渡场景：月份视图纵向分开，将当前周在内容区置顶，并显示选中日期以小时为单位的轴视图。通过一系列交互动效，日历应用增强了年、月、日之间的层级关系。
+![](http://upload-images.jianshu.io/upload_images/674139-d8566abe2288894f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+原文链接：[iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)
+翻译参考：[ISUX](http://isux.tencent.com/ios9-guideline-ch1.html)
