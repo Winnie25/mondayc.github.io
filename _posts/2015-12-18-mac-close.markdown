@@ -1,0 +1,76 @@
+---
+layout:     post
+title:      "为什么Mac要将窗口关闭按钮放在左侧"
+subtitle:   ""
+date:       2015-12-18 21:33:00
+author:     "粥一"
+header-img: "img/tag-bg.jpg"
+tags:
+    - 产品
+    - 脑洞
+    - 杂货铺
+    - Mac
+    
+---
+
+为什么苹果的窗口操作按钮都放在左边，而Windows的在右边？关于这个问题其实一直有不少讨论和猜测，比如在[知乎](https://www.zhihu.com/question/19619406?rf=20712905)、[Quora](https://www.quora.com/Why-did-Apples-UI-designers-place-window-buttons-on-the-top-left-and-how-does-this-increase-usablitiy)、还有各大论坛...
+
+自己最先接触的是Windows系统，习惯了关闭窗口的按钮在右上角，这样第一次使用Mac时，就十分不习惯要将鼠标滑到最左边点 击关闭的方式。可能在心理上会觉得按钮在右边是离右手鼠标最近的地方，按钮放右边是再适合不过的选择了。当然，如果一开始就是使用的Mac OS，就不会存在这样的问题。而后来的iOS系统中Safari也是把关闭按钮放在了左边（也许是为了和Mac OS照应），这对于手小的用户来说，单手关闭窗口就是一件很艰难的事情了 。不过这对左撇子来说就正好，于是又想起来：乔布斯是左撇子（logo那个苹果被咬掉的是右边）！
+
+但是Mac有强大的快捷键呀，当然，这就不仅仅是针对如何关闭窗口了，那么问题来了：[如何优雅的使用Mac？](https://www.zhihu.com/question/20520972?rf=20496124)这有一定的学习成本。对高级用户，或是熟悉了快捷键的一部分用户来说，关闭按钮放哪都无所谓了。
+
+不如从头来看一看。“Windows”本身就是窗口的意思，所以很久一段时间自己都以为微软是最先开始使用窗口的，而Apple为了和竞争对手区分开来，才这样设计……直到后来才知道世界上第一个图形界面是施乐（Xerox）公司的 [Xerox Alto](http://en.wikipedia.org/wiki/Xerox_Alto)。而 [Xerox PARC](http://baike.baidu.com/link?url=ekw9Ua5PNeok3xSBo3Nxt4eWquyqqUDC1ItHtgdouZu6ZQ0dRpJsAlP2fu92Dte95gwHX7fzN_M4xZ1gG1IKS_)是最早提出图标、窗口和菜单这些概念的。
+
+![Xerox 8010 Star](http://upload-images.jianshu.io/upload_images/674139-2049108e83596bac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+后来施乐公司投资苹果，PARC也有一些技术人员跳槽到苹果，于是才有了Lisa和Macintosh（也有据说是当年老乔在Xerox PARC瞧见了，于是回来照着做了）。1984年诞生了Mac OS1.0，1985年诞生了Windows 1.0X。既然这样，Apple就是在Windows之前设计出来的，那为什么设计师要把操作按钮放在最左边呢？
+
+先来简单地了解一下Mac OS的进化历史：[Evolution of Mac OS](https://www.youtube.com/watch?v=BgA_cT0j1N8)（视频链接）
+
+![System 1.0](http://upload-images.jianshu.io/upload_images/674139-1e2370bc4ff230d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![System 2.0](http://upload-images.jianshu.io/upload_images/674139-2169e00cd3dd29b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![System 3.0](http://upload-images.jianshu.io/upload_images/674139-606094f5dd2cf35e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![System 4.0](http://upload-images.jianshu.io/upload_images/674139-f258cd655aefc9dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![System 6.0](http://upload-images.jianshu.io/upload_images/674139-adf0766cbd5e2c2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![System 7.0](http://upload-images.jianshu.io/upload_images/674139-1f8a60d5d9717cf7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Mac OS 8](http://upload-images.jianshu.io/upload_images/674139-f8d14b9a2334dc93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Mac OS 9](http://upload-images.jianshu.io/upload_images/674139-0f066890c3529888.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+![Mac OS X Public Beta](http://upload-images.jianshu.io/upload_images/674139-a75858c9edf41c70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![Mac OS X 10.0（Cheetah）](http://upload-images.jianshu.io/upload_images/674139-10e1ceb0b8ad9419.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Mac OS X 10.3（Panther）](http://upload-images.jianshu.io/upload_images/674139-ba0606608454a0b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![OS X 10.11 （EI Caption）](http://upload-images.jianshu.io/upload_images/674139-d4679eb4d9348cb3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+基于以上历史可以发现，一开始的时候窗口*关闭* 按钮和*放大/缩小* 分别一左一右，大概是后来觉得不太合适吧，Mac OS X开始就终于把这两个加上*最小化* 一起并排放在左侧了。
+
+
+****Mac OS 这么做的道理****
+作为拥有数以亿级果粉的Apple公司，之所以这么做肯定是有自己的道理，那么还是来认真思考一下为什么：
+> 1.为了和程序菜单靠更近
+
+从system 1.0开始，Mac OS中所有程序的菜单都在系统界面左上角，并且随着当前的程序切换，这样一来为了顺手，窗口操作的三个按钮也就被放在了左边。不然鼠标在最左点击菜单，需要关闭窗口或是最大化、最小化时，又将鼠标滑到最右边应该是很辛苦的吧。
+
+![软件菜单](http://upload-images.jianshu.io/upload_images/674139-f21868d71736374a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>2.窗口在放大或缩小过程中关闭按钮位置可以保持不变
+
+通常情况下，放大或缩小窗口都是操作的右、下边，这也和我们阅读文字的习惯相适应：从上到下，从左到右。
+>3.操作过程更加舒适
+
+我们来尝试一下将光标移动到桌面正中的位置，然后调整右手的位置，以舒服的姿势握住鼠标，这个时候尝试往左或往右，可以感觉到只需手腕微微摆动，就可以轻易地向左移动光标，而向右则显得吃力一点。这和人体的生理构造有关，人体的手倾向于内侧朝下的方向，而右摆动的时候，往往是习惯先向内侧的。所以在操作上，向左更加快速，向右更加准确。
+
+****那么微软将三个按钮放在右边有哪些道理呢：****
+任意打开一个网页或是程序，可以很轻易地发现重要的功能往往都在左侧，而右侧更多的是次要信息。从人机工程学的角度，用户对于左侧的操作效率要低于右侧，所以将关闭按钮放在右侧可以更多避免误操作而若仅仅是需要关闭窗口，有位小伙伴不久前讨论过桌面的[无限可选中区域](http://www.jianshu.com/p/0b211ea03d62)：当Windows窗口最大化时，鼠标向右上摆动，只要幅度适当大，不用精确，就直接能点击关闭。
+
+****总结：****
+开脑洞了一个晚上，后来发现Mac OS将窗口按钮放在左上角的原因很简单……不过顺道了解了一下Mac OS的进化历史也是涨姿势了。以前自己对于一个产品的评价只会说：这个用户体验不好、觉得很奇怪、很诡异，现在应该更多站在用户的角度去思考，偶尔还得考虑一下产品开发和运维的问题。一项产品的设计，都有相应的缘由，只或许是我们将它想得太过复杂，而忽略了很浅显而微妙的原因。若是对设计有好奇或者疑问，不如先“开脑洞”思考一下，然后去看看前辈们怎么认为，最后结合大家的想法和事实依据来思考为什么，毕竟基于数据和事实依据（用户调研）的思考更为有价值。
