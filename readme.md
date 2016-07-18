@@ -1,4 +1,4 @@
 blog @Mondayc
 
 ---
-Theme by ![Hux](https://huangxuang.me)
+Theme by [Hux](https://huangxuang.me)
