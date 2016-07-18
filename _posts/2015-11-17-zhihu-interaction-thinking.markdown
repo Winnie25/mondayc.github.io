@@ -1,0 +1,47 @@
+---
+layout:     post
+title:      "对知乎收藏夹的交互小改进"
+subtitle:   ""
+date:       2015-11-17 12:00:00
+author:     "粥一"
+header-img: "img/tag-bg.jpg"
+tags:
+    - 交互设计
+    - 改进
+    
+---
+
+现在生活中遇到小问题，越来越多的年轻人选择求助知乎而不是百度了，知乎在我们日常生活中使用频率一直在增加，但无论pc网页还是移动端，用户体验上都不够完美。
+
+自己每天都会用一小段时间刷刷知乎，遇见自己感兴趣的回答就会顺手收藏一下，这样一来收藏的回答数越来越多，文件夹也越来越多，但问题也随之而来：这里面有不少是当时来不及看就收藏下来，想着有空再看。可是当自己看完之后会发现这项回答并没有很大的收藏价值，对于一些强迫症患者，这个时候就迫不及待要把它删除了。于是问题来了…知乎的pc网页版和移动端都没有对已收藏回答直接删除的按键。嗯…强迫症还是要删除这个收藏，办法还是有的，再次点进去这个回答，会在最下方看见收藏按钮，点击收藏，取消收藏夹后面的勾勾，然后再退出，刷新一下收藏夹，发现那个回答终于消失啦（真是够了～）。
+
+何必每次如此麻烦呢，不如稍稍改进一下。
+
+##网页版知乎收藏夹：
+![知乎收藏](http://upload-images.jianshu.io/upload_images/674139-187a53f5146c716c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+点击右上角的编辑之后，可以修改收藏夹的名称和描述内容，还有是否公开。其中有一点小问题，就是不能对收藏夹里面的内容进行直接编辑（取消收藏，或同时放到其他收藏夹）。若要取消收藏或是同时放入其他收藏夹，得点开问题，拖到最下方才能看见收藏，再次点击收藏，才可以重新选择收藏夹，相当麻烦。
+
+
+![回答最下方](http://upload-images.jianshu.io/upload_images/674139-17af76c9e1cecc82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+对此的改进建议是：1.每一条收藏后面加上移除的图标“×” 2.将内容后面的收藏按钮提到最前面
+
+![修改后的收藏](http://upload-images.jianshu.io/upload_images/674139-baddb0af90a4dd59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##iOS客户端：
+“我的收藏”中只能选择添加或删除收藏夹，选择相应的收藏夹之后，进入的页面中是各个回答的列表，同样只有点进去问题之后，才可以在底部的“收藏”中再次选择或取消收藏，十分不方便。
+
+
+![知乎iOS客户端收藏页](http://upload-images.jianshu.io/upload_images/674139-baddb0af90a4dd59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+![收藏的回答列表](http://upload-images.jianshu.io/upload_images/674139-42abacc95efca865.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+对此的改进建议是：在收藏夹的回答列表这一页， 添加左滑删除功能。
+
+
+![改进后的收藏回答列表](http://upload-images.jianshu.io/upload_images/674139-10cb239bb45af8ce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+---
+来自一只不安分的交互新人，请多指教。
