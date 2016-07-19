@@ -4,6 +4,7 @@ title:      "记录第一次写网页的心路历程"
 subtitle:   ""
 date:       2016-05-07 21:00:00
 author:     "粥一"
+catalog:	true
 header-img: "img/post-rh.jpg"
 tags:
     - Web
@@ -11,14 +12,14 @@ tags:
     - 前端
     
 ---
-##网页主要内容
+## 网页主要内容
 UX Team 主页，访问对象为公司内部同事。主页主要用来展示三个内容入口：Project，Design， Resource。
 页面元素这么少，写起来也应该很简单。但对于一只没写过完整Web 页面的设计汪来说，还是有点额头冒汗。
-##使用到的工具
+## 使用到的工具
 Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 在预览和调整时，主要是 Chrome 浏览器，后来也开始用Github 来控制版本信息和方便在线预览。
-##步骤
+## 步骤
 
 就三个按钮嘛，不用画图，引用一下font icon 就直接搞定咯。好像有点单调，那就再加个hover 后blingbling 的动效，然后……就完成啦。
 
