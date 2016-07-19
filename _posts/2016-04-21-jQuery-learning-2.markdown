@@ -92,7 +92,7 @@ animation 句法：
 
 在`{params}`中可以同时设置多个参数，同时也可以使用相对值或预先定义过的属性词例子：
 
-```javaScript
+```javascript
 $(document).ready(function(){ 
   $("button").click(function(){ 
     $("div").animate({ 
@@ -133,7 +133,7 @@ $("#p1").css("color", "red") .slideUp(2000) .slideDown(2000);
 ####其他问题
 1. 在网页源代码首页经常会看见这样一段：
 
- ``` 
+ ```html 
  <link rel="dns-prefetch" href="//code.jquery.com" /> 
  <link rel="dns-prefetch" href="//fonts.googleapis.com" />  
  ``` 
