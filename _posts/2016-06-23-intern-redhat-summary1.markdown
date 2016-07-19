@@ -2,7 +2,7 @@
 layout:     post
 title:      "交互新人实习小结"
 subtitle:   "<--2016-6-23-->"
-date:       2016-06-23 15：35:00
+date:       2016-06-23 15:35:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
 tags:
