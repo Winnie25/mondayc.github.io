@@ -46,7 +46,7 @@ tags:
 
 除了⎡关键线路的变种场景剧本⎦，还有⎡必须使用的场景剧本⎦、⎡边缘情形使用场景剧本⎦。必须使用的场景是必须要被执行但又不常发生的情况，比如清空应用缓存、系统设置等；至于边缘情形使用场景剧本，是指必须有但不太常被碰到的情形，这往往是程序员的关注重点，但设计师不值得在这方面花太多功夫。
 
-![](http://upload-images.jianshu.io/upload_images/674139-2593fea783a72761.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-04-18-1.png)
 
 有关常见的iOS界面框架，自己曾经小结过 [ →简书链接](http://www.jianshu.com/p/e4034e2c94ed)
 
