@@ -44,9 +44,11 @@ gems: [jekyll-paginate]
 # kramdown:
 #   input: GFM                            # use Github Flavored Markdown !important
 markdown: redcarpet
+
 redcarpet:
   extensions: ["fenced_code_blocks", "tables", "highlight", "with_toc_data", "strikethrough", "underline"]
-
+pygments:true;
+highlight:true;
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
