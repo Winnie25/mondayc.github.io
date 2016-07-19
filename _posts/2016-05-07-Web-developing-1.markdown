@@ -25,7 +25,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 是的……你没有看错，这是Version 0.1（看了下图不取关的都是真爱粉 0.0）
 
-![Version 0.1](http://upload-images.jianshu.io/upload_images/674139-0192354a449abfa7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Version 0.1](/img/in-post/2016-05-07/01.jpg)
 －“是不是有点偷懒……？”
 －“嗯，很有自知之明。”
 －“嘿嘿……我只是尝试一下这样的效果……”
