@@ -5,7 +5,6 @@ subtitle:   ""
 date:       2016-02-26 23:28:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
-catalog:	true
 tags:
     - iOS9
     - 译文
