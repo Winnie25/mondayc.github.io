@@ -23,19 +23,19 @@ tags:
 ****基本需求****：帮用户记住任务或安排，并在特定的时间有效提醒用户。
 
 先来看看百度指数上面的数据：
-![from百度指数](http://upload-images.jianshu.io/upload_images/674139-f8316d877879a7de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![from百度指数](/img/in-post/2015-12-27/01.png)
 
 
-![年龄和性别分布](http://upload-images.jianshu.io/upload_images/674139-8e19eea420337c12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![年龄和性别分布](/img/in-post/2015-12-27/02.png)
 
-![“日程管理软件"移动端搜索趋势](http://upload-images.jianshu.io/upload_images/674139-43355be07eaf2dbf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![“日程管理软件"移动端搜索趋势](/img/in-post/2015-12-27/03.png)
 
 在淘宝指数上搜索“便签”，得到以下信息和人群定位：
 
-![2012.8-2015.12“便签”搜索情况](http://upload-images.jianshu.io/upload_images/674139-23935faf57c39c05.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![性别和年龄比例](http://upload-images.jianshu.io/upload_images/674139-1d09155eedadb409.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2012.8-2015.12“便签”搜索情况](/img/in-post/2015-12-27/04.png)
+![性别和年龄比例](/img/in-post/2015-12-27/05.png)
 
-![爱好](http://upload-images.jianshu.io/upload_images/674139-0e8c04ff11a837fb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![爱好](/img/in-post/2015-12-27/06.png)
 
 **基于百度和淘宝指数反馈的数据：**
 1. 可以再次说明越来越多的用户选择使用App而不是纸质便签。

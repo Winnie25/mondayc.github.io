@@ -25,31 +25,31 @@ tags:
 
 后来施乐公司投资苹果，PARC也有一些技术人员跳槽到苹果，于是才有了Lisa和Macintosh（也有据说是当年老乔在Xerox PARC瞧见了，于是回来照着做了）。1984年诞生了Mac OS1.0，1985年诞生了Windows 1.0X。既然这样，Apple就是在Windows之前设计出来的，那为什么设计师要把操作按钮放在最左边呢？
 
-先来简单地了解一下Mac OS的进化历史：[Evolution of Mac OS](https://www.youtube.com/watch?v=BgA_cT0j1N8)（视频链接）
+先来简单地了解一下Mac OS的进化历史：[Evolution of Mac OS](/img/in-post/2015-12-18/01.png)（视频链接）
 
-![System 1.0](http://upload-images.jianshu.io/upload_images/674139-1e2370bc4ff230d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 1.0](/img/in-post/2015-12-18/02.png)
 
-![System 2.0](http://upload-images.jianshu.io/upload_images/674139-2169e00cd3dd29b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 2.0](/img/in-post/2015-12-18/03.png)
 
-![System 3.0](http://upload-images.jianshu.io/upload_images/674139-606094f5dd2cf35e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 3.0](/img/in-post/2015-12-18/04.png)
 
-![System 4.0](http://upload-images.jianshu.io/upload_images/674139-f258cd655aefc9dc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 4.0](/img/in-post/2015-12-18/05.png)
 
-![System 6.0](http://upload-images.jianshu.io/upload_images/674139-adf0766cbd5e2c2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 6.0](/img/in-post/2015-12-18/06.png)
 
-![System 7.0](http://upload-images.jianshu.io/upload_images/674139-1f8a60d5d9717cf7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![System 7.0](/img/in-post/2015-12-18/07.png)
 
-![Mac OS 8](http://upload-images.jianshu.io/upload_images/674139-f8d14b9a2334dc93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Mac OS 8](/img/in-post/2015-12-18/08.png)
 
-![Mac OS 9](http://upload-images.jianshu.io/upload_images/674139-0f066890c3529888.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Mac OS 9](/img/in-post/2015-12-18/09.png)
 
 
-![Mac OS X Public Beta](http://upload-images.jianshu.io/upload_images/674139-a75858c9edf41c70.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Mac OS X Public Beta](/img/in-post/2015-12-18/10.png)
 
-![Mac OS X 10.0（Cheetah）](http://upload-images.jianshu.io/upload_images/674139-10e1ceb0b8ad9419.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![Mac OS X 10.3（Panther）](http://upload-images.jianshu.io/upload_images/674139-ba0606608454a0b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Mac OS X 10.0（Cheetah）](/img/in-post/2015-12-18/11.png)
+![Mac OS X 10.3（Panther）](/img/in-post/2015-12-18/12.png)
 
-![OS X 10.11 （EI Caption）](http://upload-images.jianshu.io/upload_images/674139-d4679eb4d9348cb3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![OS X 10.11 （EI Caption）](/img/in-post/2015-12-18/13.png)
 
 基于以上历史可以发现，一开始的时候窗口*关闭* 按钮和*放大/缩小* 分别一左一右，大概是后来觉得不太合适吧，Mac OS X开始就终于把这两个加上*最小化* 一起并排放在左侧了。
 
@@ -60,7 +60,7 @@ tags:
 
 从system 1.0开始，Mac OS中所有程序的菜单都在系统界面左上角，并且随着当前的程序切换，这样一来为了顺手，窗口操作的三个按钮也就被放在了左边。不然鼠标在最左点击菜单，需要关闭窗口或是最大化、最小化时，又将鼠标滑到最右边应该是很辛苦的吧。
 
-![软件菜单](http://upload-images.jianshu.io/upload_images/674139-f21868d71736374a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![软件菜单](/img/in-post/2015-12-18/14.png)
 
 >2.窗口在放大或缩小过程中关闭按钮位置可以保持不变
 
