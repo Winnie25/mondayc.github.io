@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Sherry."
-<!-- header-img: "img/about-bg.jpg" -->
+description: "Hello, this is Sherry."
+header-img: "img/about-bg.jpg"
 ---
 
 <!-- Language Selector -->
@@ -15,7 +15,31 @@ description: "Hey, this is Sherry."
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <p>我是<strong>粥一</strong></p>
+    <blockquote>
+        <p>交互，产品，前端<br />做设计的工科生。</p>
+    </blockquote>
+
+    <p>
+        你好，我是<strong>粥一</strong>，交互设计师 & 伪前端，目前在<a href="http://www.redhat.com">Red Hat</a> UXD 团队实习，  <a href="http://dian.hust.edu.cn"> Dian 团队</a>队员， <a href="http://www.hust.edu.cn">华中科技大学</a>  · 生物医学工程 2013级，羽毛球爱好者。
+    </p>
+    <p>
+        我有时也活跃在其他地方，简书->> <a href="http://www.jianshu.com/users/ba14f5961708/latest_articles">粥一的简书</a>,Github->> <a href="http://github.io/mondayc">mondayc</a>
+    </p>
+
+    <h5>Recommend</h5>
+
+    <ul>
+    <li><a href="http://www.cloock.wang/2016/03/04/summary-login-ways/">小结登录的几种交互方式</a></li>
+    <li><a href="http://www.cloock.wang/2016/01/25/Google-doodles/">其实，Google是最会卖萌的搜索引擎</a></li>
+    <li><a href="http://www.cloock.wang/2015/12/18/mac-close/">为什么Mac要将窗口关闭按钮放在左侧</a></li>
+    </ul>
+
+    <h5>Resume</h5>
+
+    <ul>
+    <li><a href="/attach/倪晓禹交互设计简历.pdf">倪晓禹_交互设计_简历_2016</a></li>
+    <li><a href="attach/倪晓禹交互设计-作品集.pdf">倪晓禹_交互设计_作品集_2016</a></li>
+    </ul>
 </div>
 
 <!-- English Version -->
@@ -63,65 +87,3 @@ description: "Hey, this is Sherry."
     // init
     _render();
 </script>
-
-
-
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <div class="ds-thread"
-    {% if site.duoshuo_username == "huxblog" %}
-        data-thread-id="1187623191091085319"
-    {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
-<!-- 多说评论框 end -->
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User hacking by Hux
-    var _user = '{{site.duoshuo_username}}';
-
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
-
-
-{% if site.disqus_username %}
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus_username}}";
-    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}

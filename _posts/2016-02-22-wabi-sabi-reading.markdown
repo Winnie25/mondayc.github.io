@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "聊聊交换记忆"
-subtitle:   "没错，我们只是聊聊"
+title:      "《Wabi-Sabi 侘寂之美》读书笔记"
+subtitle:   ""
 date:       2016-02-22 14:27:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
