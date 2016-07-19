@@ -134,7 +134,8 @@ $("#p1").css("color", "red") .slideUp(2000) .slideDown(2000);
 1. 在网页源代码首页经常会看见这样一段：
 
  ``` 
- <link rel="dns-prefetch" href="//code.jquery.com" /> <link rel="dns-prefetch" href="//fonts.googleapis.com" />  
+ <link rel="dns-prefetch" href="//code.jquery.com" /> 
+ <link rel="dns-prefetch" href="//fonts.googleapis.com" />  
  ``` 
  
  DNS Prefetch（预获取），是前端优化的一部分。  在前端优化中关于DNS主要是两部分： - 减小DNS请求次数 - 进行DNS预先获取> 默认情况下浏览器会对页面中和当前域名（正在浏览网页的域名）不在同一个域的域名进行预获取，并且缓存结果，这就是隐式的DNS Prefetch。如果想对页面中没有出现的域进行预获取，那么就要使用显示的DNS　Prefetch了，也就是使用link标签： `<link rel=”dns-prefetch” href=”http://api.twitter.com”/>` > DNS Prefetch应该尽量的放在网页的前面，推荐放在`<meta charset=”/>`后面。同时，也可以通过下面的标签禁止隐式的DNS Prefetch：`<meta http-equiv=”x-dns-prefetch-control” content=”off”> `
