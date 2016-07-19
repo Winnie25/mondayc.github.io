@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2015-12-15 12:00:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 产品
     - 需求分析

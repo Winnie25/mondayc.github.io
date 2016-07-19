@@ -5,6 +5,7 @@ subtitle:   "《微电影创作技巧》读书笔记"
 date:       2016-01-06 15:13:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:    true
 tags:
     - 杂货铺
     - 脑洞

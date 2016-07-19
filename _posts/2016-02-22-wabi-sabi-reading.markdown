@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2016-02-22 14:27:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - Wabi-Sabi
     - 读书笔记

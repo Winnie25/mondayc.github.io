@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2015-12-27 22:55:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 产品
     - 交互

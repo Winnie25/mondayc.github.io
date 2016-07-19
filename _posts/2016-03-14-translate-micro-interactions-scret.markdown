@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2016-03-14 12:28:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 微交互
     - 译文

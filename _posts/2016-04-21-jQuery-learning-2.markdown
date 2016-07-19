@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2016-04-21 21:04:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - jQuery
     - 前端

@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2016-03-04 23:52:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 交互
     - 小结

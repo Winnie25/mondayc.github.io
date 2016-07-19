@@ -5,6 +5,7 @@ subtitle:   ""
 date:       2015-12-18 21:33:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 产品
     - 脑洞

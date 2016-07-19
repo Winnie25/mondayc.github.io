@@ -4,7 +4,8 @@ title:      "自己小结的iOS 界面交互框架"
 subtitle:   ""
 date:       2015-07-19 12:00:00
 author:     "粥一"
-header-img: ""
+header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - iOS
     - 交互设计

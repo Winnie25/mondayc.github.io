@@ -5,6 +5,7 @@ subtitle:   "G先生说：为了逗用户开心，我好拼"
 date:       2016-01-25 21:37:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 杂货铺
     - 脑洞

@@ -5,6 +5,7 @@ subtitle:   "读《About Face3》"
 date:       2016-04-18 12:28:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+cata-log:	true
 tags:
     - About Face3
     - 读书笔记

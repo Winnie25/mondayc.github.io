@@ -5,6 +5,7 @@ subtitle:   "青春还在，并没有逝去"
 date:       2016-01-01 23:06:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
+catalog:	true
 tags:
     - 小结
     - 杂货铺
