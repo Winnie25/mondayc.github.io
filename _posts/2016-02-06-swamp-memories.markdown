@@ -32,7 +32,7 @@ tags:
 ###输入法
 在使用输入法进行输入时，由于手误，经常会打错一些字或词，  尤其是有时会一口气输入一长串字符，然后发现中间某个字母打错了，倒回去修正挺麻烦的。好在输入法的暖心小举动，它可以帮助你识别一些简单的错误，在字列表中提供正确的选项。
 
-![bejing→beijing](http://upload-images.jianshu.io/upload_images/674139-f79874f49a4097b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![bejing→beijing](/img/in-post/2016-02-06.png)
 
 ###Word文档
 自动检查错误并进行提示。由于是文档，这里主要针对单词的拼写、句子的语法（有时也包括格式）。
@@ -41,7 +41,7 @@ tags:
 
 一般情况下，我们会进行探索式搜索。
 
-![更正提示](http://upload-images.jianshu.io/upload_images/674139-ae68bcda18b8e71a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![更正提示](/img/in-post/2016-02-06-1.png)
 
 以上三点均为基于输入和文本的人机“记忆交换”。
 

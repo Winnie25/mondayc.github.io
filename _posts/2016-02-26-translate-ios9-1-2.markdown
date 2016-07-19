@@ -13,7 +13,7 @@ tags:
 ---
 几乎所有的iOS应用都会或多或少使用 UIkit 框架定义的组件，了解这些基本组件的名称、作用和功能，有助于你在设计移动应用界面时做出明智的决策。
 
-![](http://upload-images.jianshu.io/upload_images/674139-0ece5c9c87cf2b02.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-02-26-1.png)
 
 由UIkit提供的UI元素可分为以下四大类：
 
@@ -33,7 +33,7 @@ tags:
  
 以下是关于视图与视图控制器怎样结合并实现iOS应用UI的例子
 
-![](http://upload-images.jianshu.io/upload_images/674139-95dd025406a3fa56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-02-26-2.png)
 
 
 虽然开发者认为在视图和视图控制器方面，用户更多情况下会遇到很多个屏幕内容的集合呈现在iOS应用中。从这个角度来看，*视图* 在应用中往往对应于特有的视觉呈现状态或模式。

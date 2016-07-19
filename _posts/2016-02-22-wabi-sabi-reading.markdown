@@ -10,7 +10,7 @@ tags:
     - 读书笔记
     
 ---
-![侘寂之美](http://upload-images.jianshu.io/upload_images/674139-f6b2b78bedad91cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![侘寂之美](/img/in-post/2016-02-22.png)
 
 >##什么是Wabi-Sabi
 
