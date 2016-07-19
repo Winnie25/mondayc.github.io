@@ -107,16 +107,16 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 栗子：
 
-{% raw %}
+{% highlight html %}
 
-```hbs
+```html
 <li><a href="#">超链接</a></li>
 <!--默认，鼠标移动到文字区域有效-->
 
 <li><a href="#"  style:{width:100px;height:100px; display:block; color:red; text-decoration:none;} >超链接</a></li>
 <!--鼠标移动到100*100范围内都有效-->
 ```
-{% endraw %}
+{% endhighlight %}
 
 `display: inline` 内联元素，和其他元素都在同一行；高、行高、顶和底边距不可改变，宽度就是文字或者图片内容的宽度，不可自定义。
 
