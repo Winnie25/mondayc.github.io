@@ -133,6 +133,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 |.svg|Chrome4+, Safari3.1+, Opera10.0+, iOS Mobile Safari3.2+
 
 我只引用了 .ttf 格式的字体，这三种浏览器应该是支持的呀，但在Firefox 上还是出了问题，于是乖乖加上其他几种格式字体……
+
 ```
 @font-face{
 font-family: 'overpass';
@@ -142,19 +143,21 @@ src:url(fonts/Overpass.svg) format("svg");/* iOS Safari 3.2+ */
 src:url(fonts/Overpass.woff) format("woff");/* Modern Browser */
 }
 ```
+
 **2 . 元素位置出现偏差**
 Firefox 和Safari 中的字体明显小了几号，后来发现是em 单位的问题。
 
 em单位有如下特点：
 1 . em的值并不是固定的;
 2 . em会继承父级元素的字体大小（嗯，问题就出在这）。栗子：
+
 ```
-#content{
-font-size = 1.2em;
-}
-#p{
-font-size = 1em;
-}/* 这里p 的字体大小就是 1.2*16px 啦 */
+	#content{
+	font-size = 1.2em;
+	}
+	#p{
+	font-size = 1em;
+	}/* 这里p 的字体大小就是 1.2*16px 啦 */
 ```
 
 这次如果再加上 IE 浏览器旧版本的兼容性问题，一定会头大0.0
