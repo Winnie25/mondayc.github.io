@@ -2,7 +2,7 @@
 layout:     post
 title:      "《用户体验要素》读书笔记"
 subtitle:   ""
-date:       2015-12-11 12:00:00
+date:       2015-12-01 12:00:00
 author:     "粥一"
 header-img: "img/tag-bg.jpg"
 tags:
@@ -13,7 +13,7 @@ tags:
 ####本书的主要内容是经典的用户体验五要素
 
 
-![用户体验五要素](http://upload-images.jianshu.io/upload_images/674139-b50f6812425bcd54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![用户体验五要素](/img/in-post/2015-12-01.png)
 
 之前见过的产品开发流程是：
 
