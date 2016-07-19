@@ -11,7 +11,7 @@ tags:
     - 交互
     
 ---
-![](http://upload-images.jianshu.io/upload_images/674139-703b23d1fa4e8d01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-04-18.png)
 《交互设计精髓》是一本很全的交互设计指南书，第一遍读这本书时感觉十分枯燥，能一次性从头看到尾很需要勇气，但不得不说书中的每个章节都非常实用。刚刚回顾了一遍本书的第七章，分享一下自己的读书笔记。
 
 > ##设计框架
