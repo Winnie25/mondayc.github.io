@@ -34,7 +34,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 用Shadowman 的红＋黑为主要颜色，背景使用icon 填充，中间的三个色块分别对应 Project，Design， Resource。
 
-![Version 0.2](http://upload-images.jianshu.io/upload_images/674139-1c3664b2dee006bf.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Version 0.2](/img/in-post/2016-05-07/02.jpg)
 
 这厚重的颜色，终于有人看不下去了……于是就被改成了下面的Version 0.3 ：
 
@@ -44,7 +44,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 - footer 文字居中对齐，logo 却偏到最左侧，莫名其妙；
 - 标题＋段落＋button 占据了接近300px（不是响应式页面），整个页面高度接近1000px了……在绝大多数电脑屏幕上都不能完整显示。
 
-![Version 0.3](http://upload-images.jianshu.io/upload_images/674139-81d86288183e10b1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Version 0.3](/img/in-post/2016-05-07/03.jpg)
 
 改改改，于是有了当前版本：
 - 标题方面：
@@ -57,7 +57,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
   -  分别在屏幕中间700像素范围内两端对齐。
 
 
-![Version 0.5](http://upload-images.jianshu.io/upload_images/674139-29387fadd3be4276.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Version 0.5](/img/in-post/2016-05-07/04.jpg)
 
 嗯，终于改好啦！考虑到图片大小问题，又在tinypng 上压缩了一下图片，然后打包上传Github。于是我满心欢喜地把[demo](http://mondayc.github.io/test01/)  链接发给了小伙伴们。
 
