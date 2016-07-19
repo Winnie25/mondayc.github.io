@@ -15,7 +15,7 @@ RSS: false
 weibo_username:     5138280133
 zhihu_username:     ni-xiao-yu-35
 github_username:    mondayc
-jianshu_username:   ba14f5961708
+email_username:     zeal_xy@163.com
 # facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -87,10 +87,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
+        title: "方杰",
+        href: "http://blog.fangjie.info/"
+    },
+    {
         title: "Dian 团队",
         href: "http://dian.hust.edu.cn/"
     },{
         title: "粥一的LOFTER",
         href: "http://clooock.lofter.com/"
     }
+
 ]
