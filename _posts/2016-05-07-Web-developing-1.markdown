@@ -90,11 +90,13 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 ####2. 有关jQuery 加载方式
 
 有时会看到在引入jQuery 时有这样一段代码：
+{% raw %}
 
 ```
 <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
 ```
+{% endraw %}
 
 这样的写的话，就可以实现考第一种方式jQuery 未能加载成功的情况下，自动加载本地jQuery 文件。
 >参考：
@@ -105,6 +107,8 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 栗子：
 
+{% raw %}
+
 ```
 <li><a href="#">超链接</a></li>
 <!--默认，鼠标移动到文字区域有效-->
@@ -112,6 +116,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 <li><a href="#"  style:{width:100px;height:100px; display:block; color:red; text-decoration:none;} >超链接</a></li>
 <!--鼠标移动到100*100范围内都有效-->
 ```
+{% endraw %}
 
 `display: inline` 内联元素，和其他元素都在同一行；高、行高、顶和底边距不可改变，宽度就是文字或者图片内容的宽度，不可自定义。
 
@@ -139,6 +144,8 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 我只引用了 .ttf 格式的字体，这三种浏览器应该是支持的呀，但在Firefox 上还是出了问题，于是乖乖加上其他几种格式字体……
 
+{% raw %}
+
 ```
 @font-face{
 font-family: 'overpass';
@@ -149,6 +156,8 @@ src:url(fonts/Overpass.woff) format("woff");/* Modern Browser */
 }
 ```
 
+{% endraw %}
+
 **2 . 元素位置出现偏差**
 Firefox 和Safari 中的字体明显小了几号，后来发现是em 单位的问题。
 
@@ -156,14 +165,17 @@ em单位有如下特点：
 1 . em的值并不是固定的;
 2 . em会继承父级元素的字体大小（嗯，问题就出在这）。栗子：
 
+{% raw %}
+
 ```
-	#content{
-	font-size = 1.2em;
-	}
-	#p{
-	font-size = 1em;
-	}/* 这里p 的字体大小就是 1.2*16px 啦 */
+#content{
+font-size = 1.2em;
+}
+#p{
+font-size = 1em;
+}/* 这里p 的字体大小就是 1.2*16px 啦 */
 ```
+{% endraw %}
 
 这次如果再加上 IE 浏览器旧版本的兼容性问题，一定会头大0.0
 >参考：
