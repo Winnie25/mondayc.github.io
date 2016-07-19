@@ -92,7 +92,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 有时会看到在引入jQuery 时有这样一段代码：
 {% raw %}
 
-```
+```js
 <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
 ```
@@ -109,7 +109,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 {% raw %}
 
-```
+```hbs
 <li><a href="#">超链接</a></li>
 <!--默认，鼠标移动到文字区域有效-->
 
@@ -146,7 +146,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 
 {% raw %}
 
-```
+```css
 @font-face{
 font-family: 'overpass';
 src:url(fonts/Overpass.ttf) format("truetype");/* 最初我只写了这一种 */
@@ -167,7 +167,7 @@ em单位有如下特点：
 
 {% raw %}
 
-```
+```css
 #content{
 font-size = 1.2em;
 }
