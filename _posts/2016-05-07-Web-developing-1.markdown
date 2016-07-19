@@ -71,14 +71,15 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 - 继承的样式和直接指定的样式冲突时，直接指定的样式获胜
 - 直接指定的样式发生冲突时，样式权值高者获胜
 
-| CSS选择器| 权值 |
-| : -------------:  |:-------------:|
-|  标签选择器  |  1  |
-|类选择器| 10|
-| ID选择器| 100|
-| 内联样式 |1000|
-|伪元素(:first-child等)| 1|
-|伪类(:link等)|10|
+|CSS选择器| 权值 |
+|:-------------:|:-------------:|
+|标签选择器|1
+|类选择器|10
+|ID选择器|100
+|内联样式|1000
+|伪元素(:first-child等)|1
+|伪类(:link等)|10
+
 - 当权值相等时，后出现的样式表设置要优于先出现的样式表设置
 - !important的样式属性不被覆盖
 
@@ -89,10 +90,12 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 ####2. 有关jQuery 加载方式
 
 有时会看到在引入jQuery 时有这样一段代码：
+
 ```
 <script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
 ```
+
 这样的写的话，就可以实现考第一种方式jQuery 未能加载成功的情况下，自动加载本地jQuery 文件。
 >参考：
 [加载jQuery 的正确方式](https://blog.netsh.org/posts/how-to-load-jquery_1645.netsh.html)
@@ -101,6 +104,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 `display: block` 将元素显示为块级元素。对`<div>`这样的块元素，display 属性默认值为block，没必要再定义（除非之前对display 属性进行过修改 ，如：`display:hidden;`）；常用于`<a> <span>`这两个标签，因为对于非块级元素，定义width height 等和长宽相关的CSS 属性时会发现完全不生效。
 
 栗子：
+
 ```
 <li><a href="#">超链接</a></li>
 <!--默认，鼠标移动到文字区域有效-->
@@ -108,6 +112,7 @@ Sketch＋Sublime Text3。两个应用安装包加起来不到50M ¬_¬
 <li><a href="#"  style:{width:100px;height:100px; display:block; color:red; text-decoration:none;} >超链接</a></li>
 <!--鼠标移动到100*100范围内都有效-->
 ```
+
 `display: inline` 内联元素，和其他元素都在同一行；高、行高、顶和底边距不可改变，宽度就是文字或者图片内容的宽度，不可自定义。
 
 `display: inline-block`内联对象，并可以控制对象内容的高、宽等。
