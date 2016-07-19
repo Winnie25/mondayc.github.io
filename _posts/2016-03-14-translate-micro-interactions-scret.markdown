@@ -11,7 +11,7 @@ tags:
     - 交互
     
 ---
-![](http://upload-images.jianshu.io/upload_images/674139-f11d4ef9de2c3064.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-03-14/01.png)
 
 好的产品得做好两件事：特点和细节。特点用于将人们吸引到你的产品这来。*细节* 则是让用户保持使用这项产品的原因，正是细节让我们的App在竞争对手中脱颖而出。
 
@@ -32,11 +32,11 @@ tags:
 
 当将iPhone切换到静音模式时，振动通知和静音模式的图标会同时出现。
 
-![](http://upload-images.jianshu.io/upload_images/674139-948bda6f55d3f71d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/img/in-post/2016-03-14/02.png)
 
 界面动效也会展示可点击性（当鼠标悬停时按钮的颜色改变） 
 
-![](http://upload-images.jianshu.io/upload_images/674139-bf9e14e624fcd56c.gif?imageMogr2/auto-orient/strip)
+![](/img/in-post/2016-03-14/03.gif)
 
 ##微交互为什么会起作用
 微交互会起作用是因为它迎合了用户对于*奖赏* 的渴望：用户能即时知道他们的操作被接受，并期望从视觉奖赏中获得愉悦感。同时，微交互能引导用户如何来使用系统。
@@ -49,10 +49,10 @@ tags:
 
 因此，界面需要让用户清楚当前正在进行什么操作。
 
-![上传或下载时的进度条](http://upload-images.jianshu.io/upload_images/674139-8d9914c6fa007308.gif?imageMogr2/auto-orient/strip)
+![上传或下载时的进度条](/img/in-post/2016-03-14/04.gif)
 
 或用户现在处于什么位置：
-![滚动条进度](http://upload-images.jianshu.io/upload_images/674139-346e45a0de3fc020.jpeg?imageMogr2/auto-orient/strip)
+![滚动条进度](/img/in-post/2016-03-14/05.gif)
 
 ######小结：
 别让你的用户感到厌烦——使用户了解并将进程展示给他们（例如：加载条迎合了用户，并避免了疑虑 ）
@@ -60,7 +60,7 @@ tags:
 ####突出显示变化
 有时我们得展示消息通知，以确保用户能看见。这时动效就起到作用了：它能吸引用户的注意力，避免你认为重要的信息被忽视。
 
-![新消息](http://upload-images.jianshu.io/upload_images/674139-7fd7f920d27e57c2.gif?imageMogr2/auto-orient/strip)
+![新消息](/img/in-post/2016-03-14/06.gif)
 
 ######小结：
 很多情况下动效都被用于将用户的注意力吸引到重要的细节上来。你可以运用 [KISS 原则](https://en.wikipedia.org/wiki/KISS_principle)——微交互应该小而简约。
@@ -70,7 +70,7 @@ tags:
 使用运动让用户在导航上下文之间平滑过渡，诠释了屏幕上元素位置的变化。这一点在移动设备和智能手表上体现的尤为突出，因为它们根本不可能在同一屏幕内放上大量内容。
 
 
-![Material Design](http://upload-images.jianshu.io/upload_images/674139-1eb7b0bf5a2d15ac.gif?imageMogr2/auto-orient/strip)
+![Material Design](/img/in-post/2016-03-14/07.gif)
 
 ######小结：
 保持不同页面之间清晰的导航，这样用户就能更清楚什么功能是从哪里出来的。两个可视化状态之间的转换应该是清晰、流畅和高效的。主题的统一：创建一个统一的主题，以将所有的交互捆绑在一起。
@@ -78,7 +78,7 @@ tags:
 ####输入可视化
 数据输入是一项应用中最重要的元素之一，而微交互将这个过程变得更为特别。你可以使用现有的元素来提供反馈。
 
-![](http://upload-images.jianshu.io/upload_images/674139-800e6c7482c94092.gif?imageMogr2/auto-orient/strip)
+![](/img/in-post/2016-03-14/08.gif)
 
 ######小结：
 微交互协助展现信息并帮助用户达到操作目的。
@@ -87,7 +87,7 @@ tags:
 微交互有种鼓励用户进行实际交互的力量。他们能在用户体验中带来*共鸣* ，但要确保视觉线索和动效适合你的目标用户。脑中一直要考虑：这项微交互会在多次使用之后招人烦吗？它们普遍清晰且不显眼吗？
 
 
-![](http://upload-images.jianshu.io/upload_images/674139-51718aa97b1b21cd.gif?imageMogr2/auto-orient/strip)
+![](/img/in-post/2016-03-14/09.gif)
 
 ######小结：
 在设计时注重用户情感，因为它们在用户交互方面扮演了重要角色。根据上下文及用户研究得出结论，并设计使之可重复使用。
