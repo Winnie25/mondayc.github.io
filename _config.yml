@@ -72,7 +72,7 @@ redcarpet:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "负一岁的交互设计师，偶尔也写写字"
+sidebar-about-description: "负一岁的交互设计师，爱看书，写字，也爱羽毛球。"
 sidebar-avatar: /img/cloock.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
