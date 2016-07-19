@@ -15,23 +15,30 @@ tags:
 学习资源建议直接看W3school 的教程，若不能翻墙，也可以直接访问这个镜像网站： http://w3schools.bootcss.com/
 ##1. 基础定义 
 基本句法：
+
 ```javascript
 $(selector).action
 ```
+
 理解：
-- "$" 定义 jQuery
-- （selector）用来访问 HTML 元素
-- action( ) 用来操作元素
+
+- `$` 定义 jQuery
+- `（selector）`用来访问 HTML 元素
+- `action( )` 用来操作元素
+
 
 ######例子：
 1.使用CSS选择器 
+
 ```javascript
 $(this).hide() - 隐藏当前元素
 $("p").hide() - 隐藏所有的<p> 标签元素
 $(".test").hide() - 隐藏所有包含"test" 类的元素
 $("#test").hide() - 隐藏所有ID为"test" 的元素
 ```
+
 2.防止在文件加载完成之前jQuery 启动：
+
 ```
 $(document).ready(function(){//jQuery ...});
 ```
@@ -56,6 +63,7 @@ $(document).ready(function(){//jQuery ...});
 
 
 ## 3. 事件
+
 | 鼠标事件 | 键盘事件 | 表单事件 |	文件/窗口事件
 | :--------:	 |		 :--------: 	| 	:----------:	 | 	:--: 	|
 | click | keypress | submit | load
@@ -64,6 +72,7 @@ $(document).ready(function(){//jQuery ...});
 | mouseleave | | blur |unload
 
 例子: 
+
 ```javascript
 $(document).ready(function(){ 
   $("p").click(function(){ 
@@ -90,6 +99,7 @@ $(document).ready(function(){
 
 ##4. 遇到的其它小问题
 经常在网页中看到这样虾面这样一段代码，其实是百度统计的东东。
+
 ```javascript
 <script>
   var _hmt = _hmt || [];
