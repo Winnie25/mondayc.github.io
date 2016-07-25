@@ -1,3 +1,13 @@
 footer{
 	padding-bottom: 30px;
 }
+.post-preview > .post-meta {
+	font-family: Georgia, "Times New Roman", 
+             "Microsoft YaHei", "微软雅黑", 
+             STXihei, "华文细黑", 
+             sans-serif;
+}
+
+.post-preview .post-meta{
+	font-size: 14px;
+}
