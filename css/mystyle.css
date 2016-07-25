@@ -14,13 +14,5 @@ footer{
 .pager li>a{
 	-webkit-transition: all .5s;
 	transition: all .5s;
-	background-size: 0% 100%;
-	background: linear-gradient(to right, #abcd00, #abcd00) no-repeat;
-	background: -webkit-linear-gradient(left, #abcd00, #abcd00) no-repeat;
-
-}
-.pager li >a:hover{
-	color: #fff;
-	background-size: 100% 100%;
 }
 
