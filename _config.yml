@@ -96,6 +96,10 @@ friends: [
     },{
         title: "粥一的LOFTER",
         href: "http://clooock.lofter.com/"
+    },
+    {
+        title: "Patternfly",
+        href: "http://patternfly.org/"
     }
 
 ]
