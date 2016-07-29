@@ -91,6 +91,10 @@ friends: [
         href: "http://blog.fangjie.info/"
     },
     {
+        title: "Biglong",
+        href: "http://www.biglong.cc/"
+    },
+    {
         title: "Dian 团队",
         href: "http://dian.hust.edu.cn/"
     },{
@@ -101,5 +105,6 @@ friends: [
         title: "Patternfly",
         href: "http://patternfly.org/"
     }
+
 
 ]
