@@ -18,19 +18,25 @@ footer{
 
 /* duoshuo avator*/
 #ds-reset .ds-avatar img{
-    width:54px;height:54px; /*设置图像的长和宽*/
-    border-radius: 27px;/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/
-    -webkit-border-radius: 27px;/*圆角效果：兼容webkit浏览器*/
-    -moz-border-radius:27px;
-    -webkit-transition: 0.4s;   
-    -webkit-transition: -webkit-transform 0.4s ease-out;
-    transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
-        -moz-transition: -moz-transform 0.4s ease-out;
+    width:54px;height:54px;
+    border-radius: 27px !important;
+    -webkit-border-radius: 27px !important;
+    -moz-border-radius:27px !important;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-transition: 0.3s;   
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
 }
 
-#ds-reset .ds-avatar img:hover{/*设置鼠标悬浮在头像时的CSS样式*/
-    transform: rotate(30deg) scale(1.2);/*图像旋转360度*/
+#ds-reset .ds-avatar img:hover {
+    transform: rotate(30deg) scale(1.2);
     -webkit-transform: rotate(30deg) scale(1.2);
-        -moz-transform: rotate(30deg) scale(1.2);
+    -moz-transform: rotate(30deg) scale(1.2);
+    box-shadow: none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
 }
 /* duoshuo avator*/
