@@ -40,6 +40,10 @@ footer{
     -moz-box-shadow:0;
 }
 
+#ds-thread #ds-reset .ds-comments-info {
+    padding:0 !important;
+
+}
 #ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:active {
     color: #93c22e !important;
 }
