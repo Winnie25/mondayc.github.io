@@ -54,4 +54,13 @@ footer{
     box-shadow: none;
     text-shadow: none;
 }
+.ds-share-icons-16,.ds-thread-count,.ds-sync,.ds-comments-tabs {
+display: none !important;
+}
+.ds-login-buttons {
+display:none !important;
+}
+.ds-comments {
+margin-bottom: 25px !important;
+}
 /* duoshuo*/
