@@ -16,3 +16,4 @@ footer{
 	transition: all .3s;
 }
 
+#ds-thread #ds-reset .ds-comment-body p {color: #666;}
