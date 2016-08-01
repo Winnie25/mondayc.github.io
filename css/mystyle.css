@@ -41,7 +41,7 @@ footer{
 }
 
 #ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:active {
-    color: #93c22e;
+    color: #93c22e !important;
 }
 #ds-reset .ds-highlight {
     color: #93c22e !important;
@@ -49,7 +49,7 @@ footer{
 .comment #ds-thread #ds-reset a.ds-like-thread-button {
     width:48px;height:48px;
     border-radius: 24px !important;
-    border: 1px solid #93c22e;
+    border: 1px solid #93c22e !important;
     background: #fff;
     box-shadow: none;
     text-shadow: none;
