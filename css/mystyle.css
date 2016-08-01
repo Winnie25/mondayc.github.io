@@ -16,7 +16,7 @@ footer{
 	transition: all .3s;
 }
 
-/* duoshuo avator*/
+/* duoshuo*/
 #ds-reset .ds-avatar img{
     width:54px;height:54px;
     border-radius: 27px !important;
@@ -39,4 +39,19 @@ footer{
     -webkit-box-shadow:0;
     -moz-box-shadow:0;
 }
-/* duoshuo avator*/
+
+#ds-thread #ds-reset .ds-sort a.ds-current, #ds-thread #ds-reset .ds-sort a:active {
+    color: #93c22e;
+}
+#ds-reset .ds-highlight {
+    color: #93c22e !important;
+}
+.comment #ds-thread #ds-reset a.ds-like-thread-button {
+    width:48px;height:48px;
+    border-radius: 24px !important;
+    border: 1px solid #93c22e;
+    background: #fff;
+    box-shadow: none;
+    text-shadow: none;
+}
+/* duoshuo*/
