@@ -159,9 +159,7 @@ footer #wechat a:focus em{
     border: 1px solid rgba(255,255,255,.8);
     border-radius: 999em;
     padding: 0 10px;
-    color: #abcd00;
-    line-height: 24px;
-    font-size: 12px;
+    color: #bfbfbf;
     text-decoration: none;
     margin: 0 1px;
     margin-bottom: 6px;
@@ -172,14 +170,11 @@ footer #wechat a:focus em{
     line-height: 28px;
     margin: 0 2px;
     margin-bottom: 8px;
-    background: #fdfff1;
-    border-color: #abcd00;
     border:1px dashed;
 }
 
 
 #tag_cloud a:hover{
     border-color: #abcd00;
-    color: #fff;
-    background-color: #abcd00;
+    color: #abcd00;
 }
