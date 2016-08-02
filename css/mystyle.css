@@ -106,9 +106,9 @@ footer a em:after{
         margin-left: -6px;
         width: 0;
         height: 0;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
-        border-top: 1px solid #fff;
+        border-left: 6px solid #fff;
+        border-right: 6px solid #fff;
+        border-top: 6px solid #fff;
         border-bottom: none;
     }
 footer a em span img{
