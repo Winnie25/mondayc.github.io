@@ -177,5 +177,6 @@ footer #wechat a:focus em{
 
 #tag_cloud a:hover{
     border-color: #abcd00;
+    background: #fff;
     color: #abcd00;
 }
