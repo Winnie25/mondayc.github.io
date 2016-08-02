@@ -82,3 +82,46 @@ margin-bottom: 25px !important;
 .post-content-preview {
     font-style: normal;
 }
+
+/* weixin */
+footer a em{
+        font-size: .29em;
+        font-style: normal;
+        vertical-align: top;
+        padding-top: .46em;
+        position: absolute;
+        top: -34px;
+        left: 50%;
+        display: none;
+        width: 150px;
+        margin-left: -75px;
+        text-align: center;
+    }
+footer a em:after{
+        content: " ";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -6px;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid rgba(0,0,0,.6);
+        border-bottom: none;
+    }
+footer a em span{
+        display: inline-block;
+        padding: 5px 12px;
+        font-size: 14px;
+        font-style: normal;
+        color: #666;
+        background: #fff;
+        background: rgba(0,0,0,.6);
+        text-shadow: 1px 1px 1px rgba(0,0,0,.9);
+        border-radius: 5px;
+    }
+footer #wechat:hover em,
+footer #wechat a:focus em{
+        display: block;
+    }
