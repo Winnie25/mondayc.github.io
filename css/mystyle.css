@@ -114,9 +114,8 @@ footer a em:after{
 footer a em span img{
         display: inline-block;
         padding: 5px 12px;
-        font-size: 14px;
+        width: 80px;
         font-style: normal;
-        color: #666;
         background: #fff;
         background: rgba(255,255,255,.6);
         border-radius: 5px;
