@@ -82,3 +82,7 @@ margin-bottom: 25px !important;
 .post-content-preview {
     font-style: normal;
 }
+
+.weixin-icon div{display: none; padding-top: 27px;width: 150px;height: 150px;z-index: 999;}
+.weixin-icon img{margin-left: -75px;width:98%;height:auto;}
+.weixin-icon:hover div{display: all;}
