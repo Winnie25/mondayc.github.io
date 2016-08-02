@@ -99,4 +99,5 @@ iOS通常会在不同深度层次展现内容，以此来传递层级和位置�
 ![](/img/in-post/2016-02-24/14.png)
 
 原文链接：[iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html#//apple_ref/doc/uid/TP40006556-CH66-SW1)
+
 翻译参考：[ISUX](http://isux.tencent.com/ios9-guideline-ch1.html)

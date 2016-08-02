@@ -4,7 +4,7 @@ title:      "Hello World"
 subtitle:   " \"聊聊粥一\""
 date:       2015-12-05 22:00:00
 author:     "粥一"
-header-img: "img/tag-bg.jpg"
+header-img: "img/post-bg-hello.jpg"
 catalog: true
 tags:
     - 杂货铺

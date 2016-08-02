@@ -47,7 +47,9 @@ tags:
 
 ---
 **附上几篇前端学习笔记：**
-  
+
 [Sublime Text3 使用技巧](http://www.jianshu.com/p/da45654eab6c)
+
 [jQuery 学习笔记(一)](http://www.jianshu.com/p/9691b5327491)
+
 [jQuery 学习笔记(二)](http://www.jianshu.com/p/6cf8c273317d)
