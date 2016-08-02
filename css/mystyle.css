@@ -1,6 +1,9 @@
 footer{
 	padding-bottom: 30px;
 }
+h1{
+    font-size: 48px;
+}
 .post-preview .post-meta{
 	font-size: 14px;
 	margin-top: 8px;
