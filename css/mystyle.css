@@ -106,18 +106,17 @@ footer a em:after{
         margin-left: -6px;
         width: 0;
         height: 0;
-        border-left: 1px solid rgba(0,0,0,.6);
-        border-right: 1px solid rgba(0,0,0,.6);
-        border-top: 1px solid rgba(0,0,0,.6);
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        border-top: 1px solid #fff;
         border-bottom: none;
     }
 footer a em span img{
         display: inline-block;
-        padding: 0px;
+        padding-bottom: 5px;
         width: 140px;
         font-style: normal;
         background: #fff;
-        background: rgba(255,255,255,.6);
         border-radius: 5px;
     }
 footer #wechat:hover em,
