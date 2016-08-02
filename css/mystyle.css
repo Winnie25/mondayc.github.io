@@ -168,9 +168,10 @@ footer #wechat a:focus em{
     line-height: 28px;
     margin: 0 2px;
     margin-bottom: 8px;
-    background: #ffffff;
+    background: #fbffe8;
     border-color: #abcd00;
-    border-radius: 5px;
+    border-radius: 10px;
+    border:1px dashed;
 }
 
 
