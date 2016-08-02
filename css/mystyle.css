@@ -27,6 +27,13 @@ footer{
     font-weight: 600;
     letter-spacing: 1px;
 }
+@media only screen and (min-width: 768px){
+
+.navbar-custom .nav li a {
+    color: #fff;
+    padding: 16px;
+}    
+}
 /* duoshuo*/
 #ds-reset .ds-avatar img{
     width:54px;height:54px;
