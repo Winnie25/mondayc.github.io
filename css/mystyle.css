@@ -163,7 +163,19 @@ footer #wechat a:focus em{
     margin-bottom: 6px;
     }
 
+#tag_cloud a, #tag_cloud .tag {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 2px;
+    margin-bottom: 8px;
+    background: #ffffff;
+    border:initial;
+    border-color: #abcd00;
+}
+
+
 #tag_cloud a:hover{
     border-color: #abcd00;
     color: #abcd00;
-    }
+    background-color: #abcd00;
+}
