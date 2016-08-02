@@ -90,8 +90,9 @@ footer a em{
         vertical-align: top;
         padding-top: .46em;
         position: absolute;
-        top: 0px;
+        top: -100px;
         left: 50%;
+        box-shadow: 0px 2px 5px rgba(0,0,0,.2);
         display: none;
         width: 150px;
         margin-left: -75px;
