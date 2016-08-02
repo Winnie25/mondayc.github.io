@@ -42,6 +42,7 @@ footer{
 }    
 }
 /* duoshuo*/
+
 #ds-reset .ds-avatar img{
     width:54px;height:54px;
     border-radius: 27px !important;
@@ -148,7 +149,10 @@ footer #wechat:hover em,
 footer #wechat a:focus em{
         display: block;
     }
-
+/* tag */
+.sidebar-container .tags a {
+    border:1px dashed;
+}
 #tag_cloud a{
     border-color: #bfbfbf;
     display: inline-block;
@@ -168,9 +172,8 @@ footer #wechat a:focus em{
     line-height: 28px;
     margin: 0 2px;
     margin-bottom: 8px;
-    background: #fbffe8;
+    background: #fdfff1;
     border-color: #abcd00;
-    border-radius: 10px;
     border:1px dashed;
 }
 
