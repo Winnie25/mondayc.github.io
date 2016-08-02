@@ -90,7 +90,7 @@ footer a em{
         vertical-align: top;
         padding-top: .46em;
         position: absolute;
-        top: -34px;
+        top: 0px;
         left: 50%;
         display: none;
         width: 150px;
@@ -117,8 +117,7 @@ footer a em span{
         font-style: normal;
         color: #666;
         background: #fff;
-        background: rgba(0,0,0,.6);
-        text-shadow: 1px 1px 1px rgba(0,0,0,.9);
+        background: rgba(255,255,255,.6);
         border-radius: 5px;
     }
 footer #wechat:hover em,
