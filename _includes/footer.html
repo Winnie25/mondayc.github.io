@@ -36,9 +36,9 @@
                     </li>
                     {% endif %}
                     <li>
-                        <a target="_blank" href="#" class="weixin-icon">
-                            <span class="fa-stack fa-lg">
-                                <div><img src="https://www.cloock.wang/img/qr_code.jpg"></div>
+                        <a href="#">
+                            <div id="qr_code"><img src="https://www.cloock.wang/img/qr_code.jpg"></div>
+                            <span class="fa-stack fa-lg" id="wechat">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa  fa-weixin fa-stack-1x fa-inverse"></i>
                             </span>
@@ -191,25 +191,6 @@
 {% endif %}
 
 
-<!-- Baidu Tongji -->
-{% if site.ba_track_id %}
-<script>
-    // dynamic User by Hux
-    var _baId = '{{ site.ba_track_id }}';
-
-    // Originial
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?" + _baId;
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-{% endif %}
-
-
-
 <!-- Side Catalog -->
 {% if page.catalog %}
 <script type="text/javascript">
@@ -254,6 +235,14 @@
             padding: 80
         });
     });
+
+    // QR-code
+    $("#wechat").hover(function () {
+                $("#qr_code").css({ "display": "block" });
+            },
+            function () {
+                $("#qr_code").css({ "display": "none" });
+            });
 </script>
 {% endif %}
 
