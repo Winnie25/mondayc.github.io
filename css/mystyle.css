@@ -10,7 +10,12 @@ footer{
     color: #666;
     font-style: normal;
 }
-
+.intro-header .post-heading .meta {
+    font-family: Tahoma,Verdana, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
 .pager li>a{
 	-webkit-transition: all .3s;
 	transition: all .3s;
