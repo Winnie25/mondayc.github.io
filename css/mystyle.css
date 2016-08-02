@@ -68,3 +68,9 @@ display:none !important;
 margin-bottom: 25px !important;
 }
 /* duoshuo*/
+
+@media only screen and (min-width: 768px){
+.post-content-preview {
+    font-size: 12px;
+}
+}
