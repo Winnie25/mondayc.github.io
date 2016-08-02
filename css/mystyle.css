@@ -20,7 +20,13 @@ footer{
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
-
+.navbar-custom .nav li a {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 /* duoshuo*/
 #ds-reset .ds-avatar img{
     width:54px;height:54px;

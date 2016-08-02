@@ -19,11 +19,17 @@
                     <li>
                         <a href="{{ site.baseurl }}/"><span class="fa fa-home"></span></a>
                     </li>
-                    {% for page in site.pages %}{% if page.title %}
+                    <li>
+                        <a href="{{ site.baseurl }}/about.html"><span class="fa fa-tag"></span></a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/tags.html"><span class="fa fa-tags"></span></a>
+                    </li>
+<!--                     {% for page in site.pages %}{% if page.title %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                    {% endif %}{% endfor %}
+                    {% endif %}{% endfor %} -->
                 </ul>
             </div>
         </div>
