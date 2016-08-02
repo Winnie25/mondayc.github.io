@@ -73,6 +73,11 @@ margin-bottom: 25px !important;
 .post-content-preview {
     font-size: 12px;
 }
+.post-preview>a>.post-title {
+    font-size: 21px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
 }
 .post-content-preview {
     font-style: normal;
