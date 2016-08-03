@@ -44,7 +44,11 @@ footer{
     color: #fff;
     padding: 16px;
 }    
+#tag-heading {
+    padding: 150px 0;
 }
+}
+
 /* duoshuo*/
 
 #ds-reset .ds-avatar img{
