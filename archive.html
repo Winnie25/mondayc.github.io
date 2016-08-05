@@ -23,17 +23,16 @@ header-img: "img/tags-flat.jpg"
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
       <ul>
         {% for post in site.posts %}
 
           {% unless post.next %}
-            <h3>{{ post.date | date: '%Y' }}</h3>
+            <h3 style="color: #2196f3;">{{ post.date | date: '%Y' }}</h3>
           {% else %}
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
             {% if year != nyear %}
-              <h3>{{ post.date | date: '%Y' }}</h3>
+              <h3 style="color: #2196f3;">{{ post.date | date: '%Y' }}</h3>
             {% endif %}
           {% endunless %}
 
