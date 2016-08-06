@@ -3,8 +3,8 @@ title: 粥一
 SEOTitle: 粥一的Blog
 header-img: img/home-bg.jpg
 email: zeal.xy.ni@gmail.com
-description: "关于前端与设计 | 粥一 | 这里是 @粥一 的个人博客，与你一起发现更大的世界。"
-keyword: "粥一, 倪晓禹, 交互, 前端, 博客, 个人网站, 互联网, 设计, 产品"
+description: "关于前端与设计 | 粥一 | 这里是 @粥一 的个人博客。"
+keyword: "粥一, 倪晓禹, 交互, 交互设计, 华中科技大学, 华科, Dian团队, Dian, 前端, 博客, 个人网站, 互联网, 设计, 产品"
 url: "http://www.cloock.wang"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
