@@ -188,6 +188,6 @@ footer #wechat a:focus em{
     background: #fff !important;
     color: #abcd00;
 }
-.navbar-custom .nav li a:active{
+.navbar-custom .nav li a:focus{
 	border-bottom:2px solid;
 }
